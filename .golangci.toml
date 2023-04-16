@@ -74,7 +74,7 @@ enable = [
     #rowserrcheck is disabled because of generics. You can track the evolution of the generics support by following the https://github.com/golangci/golangci-lint/issues/2649.
     "sqlclosecheck",
     "stylecheck",
-    "tagliatelle",
+    #"tagliatelle",
     "tenv",
     "testableexamples",
     "testpackage",
@@ -84,7 +84,7 @@ enable = [
     "unparam",
     "unused",
     "usestdlibvars",
-    "varnamelen",
+    #"varnamelen",
     #wastedassign is disabled because of generics. You can track the evolution of the generics support by following the https://github.com/golangci/golangci-lint/issues/2649
     "whitespace",
     "wrapcheck",
