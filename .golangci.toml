@@ -107,5 +107,6 @@ linters = [
 [[issues.exclude-rules]]
 path = 'experiment/'
 linters = [
-    "unparam"
+    "unparam",
+    "revive"
 ]
